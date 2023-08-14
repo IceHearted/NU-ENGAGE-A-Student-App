@@ -2,7 +2,7 @@
 
 NU ENGAGE is a comprehensive Android application designed to streamline various college-related tasks for students. The app offers a unified platform for accessing essential college resources, along with secure user authentication powered by Google Firebase.
 
-![App Screenshots](https://t.ly/AvnAF)
+[App Screenshots](https://t.ly/AvnAF)
 
 ## Features
 
@@ -17,7 +17,7 @@ NU ENGAGE is a comprehensive Android application designed to streamline various 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/nu-engage-app.git`
+1. Clone the repository: `git clone https://github.com/IceHearted/NU-ENGAGE-A-Student-App.git` 
 2. Open the project in Android Studio 2022.2.1.
 3. Build and run the app on an Android device or emulator.
 
