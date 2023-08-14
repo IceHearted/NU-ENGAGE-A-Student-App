@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartUpPages.Signup_Screen"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_mini"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginTop="-30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup To Engage The Next Gen E-Education "
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/signup_name"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:hint="Student Name"
+            android:drawableLeft="@drawable/person_icon"
+            android:drawablePadding="8dp"
+            android:textColor="@color/lavender"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/signup_username"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:hint="Username [Student Reg. No.]"
+            android:drawableLeft="@drawable/person2_icon"
+            android:drawablePadding="8dp"
+            android:textColor="@color/lavender"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/signup_email"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:hint="Email"
+            android:drawableLeft="@drawable/email_icon"
+            android:drawablePadding="8dp"
+            android:textColor="@color/lavender"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/signup_phoneNo"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:hint="PhoneNo"
+            android:inputType="phone"
+            android:drawableLeft="@drawable/phone_icon"
+            android:drawablePadding="8dp"
+            android:textColor="@color/lavender"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/signup_password"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/password_icon"
+            android:drawablePadding="8dp"
+            android:textColor="@color/lavender"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Sign Up"
+            android:id="@+id/signup_button"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/lavender"
+            app:cornerRadius = "20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginRedirectText"
+            android:text="Already an user? Login"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</LinearLayout>

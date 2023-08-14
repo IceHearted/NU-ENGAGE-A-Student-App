@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "376489404465",
+    "firebase_url": "https://nu-engage-new-default-rtdb.firebaseio.com",
+    "project_id": "nu-engage-new",
+    "storage_bucket": "nu-engage-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376489404465:android:68aba34b5303a9b1ae4d10",
+        "android_client_info": {
+          "package_name": "com.example.nunew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376489404465-q9d8u0c75j1q8646f1m9hga5ipttt94b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8pkSozXydvLQs8C6F8ljl_476n8TUTu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376489404465-q9d8u0c75j1q8646f1m9hga5ipttt94b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376489404465:android:b9f7a90736013793ae4d10",
+        "android_client_info": {
+          "package_name": "com.example.nunew2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376489404465-q9d8u0c75j1q8646f1m9hga5ipttt94b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8pkSozXydvLQs8C6F8ljl_476n8TUTu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376489404465-q9d8u0c75j1q8646f1m9hga5ipttt94b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

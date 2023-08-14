@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartUpPages.Login_Screen"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:transitionName="logo_image"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_mini" />
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/aclonica"
+        android:text="HEY DEAR,\nWELCOME BACK"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:transitionName="logo_text" />
+
+    <TextView
+        android:id="@+id/logo_Slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/acme"
+        android:text="Sign-In To Continue"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:background="@color/black">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/login_username"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:hint="Username"
+            android:drawableLeft="@drawable/person_icon"
+            android:drawablePadding="8dp"
+            android:textColor="@color/lavender"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/login_password"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/password_icon"
+            android:drawablePadding="8dp"
+            android:textColor="@color/lavender"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:id="@+id/login_button"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/lavender"
+            app:cornerRadius = "20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signupRedirectText"
+            android:text="Not yet registered? Sign Up"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</LinearLayout>
